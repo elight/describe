@@ -1,3 +1,5 @@
+== DESCRIPTION
+
 Hub project for tools to regurgitate implemented specs in their purely descriptive and nested form.
 
 For instance, for Shoulda:
@@ -15,3 +17,10 @@ end
 A Foo
   when it does bar
     should output blech
+
+== AUTHOR
+Evan Light (evanATtiggerpalaceDOTcom): http://evan.tiggerpalace.com
+
+== LICENSE
+
+MIT License, of course
