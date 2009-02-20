@@ -1,0 +1,17 @@
+Hub project for tools to regurgitate implemented specs in their purely descriptive and nested form.
+
+For instance, for Shoulda:
+
+context "A Foo" do
+  context "when it does bar" do
+    should "output blech" do
+      # impl here
+    end
+  end
+end
+
+... would be rendered as:
+
+A Foo
+  when it does bar
+    should output blech
